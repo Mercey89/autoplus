@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="Сервисное обслуживание автомобилей">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.min.css">
+	<link rel="stylesheet" href="iconfonts/icon.css">
+	<title>Autoplus</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<!-- Header -->
+		<header class="header">
+			<div class="header-sub">
+				<div class="container">
+					<div class="header-sub__inner">
+						<ul class="header-sub__list">
+							<li class="header-sub__item">
+								<div class="header-sub__work-time">
+									<i class="icon-worktime"></i>
+									Ежедневно с 10:00 до 20:00
+								</div>
+							</li>
+							<li class="header-sub__item">
+								<div class="header-sub__contact">
+									<a class="header-sub__phone contact__item" href="tel:+7 911 926-53-20">
+										<i class="icon-phone"></i>
+										+7 911 926-53-20
+									</a>
+									<p class="header-sub__location contact__item">
+										<i class="icon-location"></i>
+										Ул. Салова 50
+									</p>
+								</div>
+								<div class="header-sub__contact">
+									<a class="header-sub__phone contact__item" href="tel:+7 812 970-78-68">
+										<i class="icon-phone"></i>
+										+7 812 970-78-68
+									</a>
+									<p class="header-sub__location contact__item">
+										<i class="icon-location"></i>
+										Ул.Комунны 15 к.2
+									</p>
+								</div>
+							</li>
+							<li class="header-sub__item">
+								<div class="header-sub__social">
+									<a class="header-sub__social-link" href="#">
+										<img src="img/icon/whatsapp.svg" alt="go to whatsapp">
+									</a>
+									<a class="header-sub__social-link" href="#">
+										<img src="img/icon/vkontakte.svg" alt="go to vkontakte">
+									</a>
+									<a class="header-sub__social-link" href="#">
+										<img src="img/icon/instagram.svg" alt="go to instagram">
+									</a>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<!-- Header main -->
+			<div class="header-main">
+				<div class="container">
+					<div class="header-main__inner">
+						<a class="header-main__logo" href="#">
+							<img src="img/logo-primary.svg" alt="logotype">
+						</a>
+						<!-- Nav -->
+						<nav class="header-main__nav nav">
+							<ul class="nav__list">
+								<li class="nav__item">
+									<a class="nav__link service-js" href="#">
+										<i class="icon-arrow"></i>
+										Услуги
+									</a>
+								</li>
+								<li class="nav__item">
+									<a class="nav__link" href="#">
+										<i class="icon-phone"></i>
+										Контакты
+									</a>
+								</li>
+							</ul>
+							<!-- Service menu -->
+							<div class="service-menu">
+								<div class="service-menu__top">
+									<h3 class="service-menu__title default-title">Наши услуги</h3>
+									<div class="service-menu__burger burger-js"><span></span></div>
+								</div>
+								<ul class="service-menu__list">
+									<li class="service-menu__item" data-toggle=".category-a">
+										<a class="service-menu__link" href="#">
+											<span class="service-menu__item-name">Автомойка</span>
+											<span class="service-menu__item-counter">5</span>
+										</a>
+									</li>
+									<li class="service-menu__item" data-toggle=".category-b">
+										<a class="service-menu__link" href="#">
+											<span class="service-menu__item-name">Заправка кондиционеров</span>
+											<span class="service-menu__item-counter">5</span>
+										</a>
+									</li>
+									<li class="service-menu__item" data-toggle=".category-c">
+										<a class="service-menu__link" href="#">
+											<span class="service-menu__item-name">Слесарный ремонт</span>
+											<span class="service-menu__item-counter">5</span>
+										</a>
+									</li>
+									<li class="service-menu__item">
+										<a class="service-menu__link" href="#">
+											<span class="service-menu__item-name">Ремонт двигатлей</span>
+											<span class="service-menu__item-counter">5</span>
+										</a>
+									</li>
+									<li class="service-menu__item">
+										<a class="service-menu__link" href="#">
+											<span class="service-menu__item-name">Ремонт выхлопных систем</span>
+											<span class="service-menu__item-counter">5</span>
+										</a>
+									</li>
+									<li class="service-menu__item">
+										<a class="service-menu__link" href="#">
+											<span class="service-menu__item-name">Сварка нержавейки</span>
+											<span class="service-menu__item-counter">5</span>
+										</a>
+									</li>
+									<li class="service-menu__item">
+										<a class="service-menu__link" href="#">
+											<span class="service-menu__item-name">Ремонт подвески</span>
+											<span class="service-menu__item-counter">5</span>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</nav>
+						<div class="header-main__burger burger-js"><span></span></div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<!-- Main -->
+		<main class="main">
+			<!-- Hero -->
+			<section class="hero">
+				<div class="container">
+					<div class="hero__inner">
+						<div class="hero-start">
+							<div class="hero-start__inner">
+								<h1 class="hero__title main-title">Сервисное обслуживание</h1>
+								<h4 class="hero__subtitle">
+									<i class="icon-repair"></i>
+									Ремонт всех марок автомобилей
+									любой сложности
+								</h4>
+								<!-- Hero form -->
+								<div class="hero-form form">
+									<h3 class="hero-form__title form__title default-title">Записаться на ремонт</h3>
+									<div class="hero-form__item form__item">
+										<input type="text" class="form__input" placeholder="Ваше имя">
+									</div>
+									<div class="hero-form__item form__item">
+										<input type="text" class="form__input" placeholder="Ваше телефон">
+									</div>
+									<div class="hero-form__item form__item form-buttons__box">
+										<button class="hero__submit-btn form__button default-button" type="submit">
+											<i class="icon-submit"></i>
+											<span> Отправить </span>
+										</button>
+										<a class="form__button accent-button" hre="#">
+											<i class="icon-phone"></i>
+											<span> Звонок с сайта </span>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- Hero end (video) -->
+						<div class="hero-end">
+							<video class="hero-end__video" autoplay="" muted="" loop="" playsinline="" poster="">
+								<source class="video__mp4" src="/video/video-bg.mp4" type="video/mp4">
+							</video>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- Blog -->
+			<section class="blog">
+				<div class="container">
+					<div class="blog__inner">
+						<h2 class="blog-title section-title">
+							<i class="icon-settings"></i>
+							Наши работы
+						</h2>
+						<!-- Not found (filter mixitup) -->
+						<div id="noItemsFoundMessage">
+							<h1 class="filter-title main-title">Ничего не найдено</h1>
+							<button class="accent-button reset-filter__button" href="#" data-filter="all">
+								<i class="icon-repair"></i>
+								Сбросить фильтр
+							</button>
+						</div>
+						<!-- Blog posts -->
+						<div class="blog-post blog-grid mixitup-js">
+							<!-- Post 01 -->
+							<article class="blog-post__item mix category-a">
+								<a class="blog-post__link" href="#">
+									<h3 class="blog-post__tittle"> Замена крестовин Hyundai Starex </h3>
+									<img src="img/post/01.jpg" alt="post picture">
+								</a>
+							</article>
+							<!-- Post 02 -->
+							<article class="blog-post__item mix category-a">
+								<a class="blog-post__link" href="#">
+									<h3 class="blog-post__tittle"> Замена крестовин Hyundai Starex </h3>
+									<img src="img/post/02.jpg" alt="post picture">
+								</a>
+							</article>
+							<!-- Post 03 -->
+							<article class="blog-post__item mix category-a">
+								<a class="blog-post__link" href="#">
+									<h3 class="blog-post__tittle"> Замена крестовин Hyundai Starex </h3>
+									<img src="img/post/03.jpg" alt="post picture">
+								</a>
+							</article>
+							<!-- Post 04 -->
+							<article class="blog-post__item mix category-b">
+								<a class="blog-post__link" href="#">
+									<h3 class="blog-post__tittle"> Замена крестовин Hyundai Starex </h3>
+									<img src="img/post/04.jpg" alt="post picture">
+								</a>
+							</article>
+							<!-- Post 05 -->
+							<article class="blog-post__item mix category-b">
+								<a class="blog-post__link" href="#">
+									<h3 class="blog-post__tittle"> Замена крестовин Hyundai Starex </h3>
+									<img src="img/post/05.jpg" alt="post picture">
+								</a>
+							</article>
+							<!-- Post 06 -->
+							<article class="blog-post__item mix category-b">
+								<a class="blog-post__link" href="#">
+									<h3 class="blog-post__tittle"> Замена крестовин Hyundai Starex </h3>
+									<img src="img/post/06.jpg" alt="post picture">
+								</a>
+							</article>
+							<!-- Post 07 -->
+							<article class="blog-post__item mix category-b">
+								<a class="blog-post__link" href="#">
+									<h3 class="blog-post__tittle"> Замена крестовин Hyundai Starex </h3>
+									<img src="img/post/07.jpg" alt="post picture">
+								</a>
+							</article>
+							<!-- Post 08 -->
+							<article class="blog-post__item mix category-b">
+								<a class="blog-post__link" href="#">
+									<h3 class="blog-post__tittle"> Замена крестовин Hyundai Starex </h3>
+									<img src="img/post/08.jpg" alt="post picture">
+								</a>
+							</article>
+							<!-- Post 09 -->
+							<article class="blog-post__item mix category-c">
+								<a class="blog-post__link" href="#">
+									<h3 class="blog-post__tittle"> Замена крестовин Hyundai Starex </h3>
+									<img src="img/post/09.jpg" alt="post picture">
+								</a>
+							</article>
+							<!-- Post 10 -->
+							<article class="blog-post__item mix category-c">
+								<a class="blog-post__link" href="#">
+									<h3 class="blog-post__tittle"> Замена крестовин Hyundai Starex </h3>
+									<img src="img/post/10.jpg" alt="post picture">
+								</a>
+							</article>
+							<!-- Post 11 -->
+							<article class="blog-post__item mix category-c">
+								<a class="blog-post__link" href="#">
+									<h3 class="blog-post__tittle"> Замена крестовин Hyundai Starex </h3>
+									<img src="img/post/11.jpg" alt="post picture">
+								</a>
+							</article>
+							<!-- Post 12 -->
+							<article class="blog-post__item mix category-c">
+								<a class="blog-post__link" href="#">
+									<h3 class="blog-post__tittle"> Замена крестовин Hyundai Starex </h3>
+									<img src="img/post/12.jpg" alt="post picture">
+								</a>
+							</article>
+						</div>
+						<!-- Pagination -->
+						<div class="pagination">
+							<div class="pagination__inner">
+								<div class="pagination__item prev">
+									<i class="icon-arrow"></i>
+								</div>
+								<div class="pagination__item _active">1</div>
+								<div class="pagination__item">2</div>
+								<div class="pagination__item">3</div>
+								<div class="pagination__item next">
+									<i class="icon-arrow"></i>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- Brand -->
+			<section class="brand">
+				<div class="container">
+					<h2 class="brand__title section-title">
+						<i class="icon-brands"></i>
+						Марки авто
+					</h2>
+				</div>
+				<div class="brand__inner">
+					<div class="container">
+						<!-- Brand slider (slick) -->
+						<div class="brand-slider slick-js">
+							<!-- Slide 01 -->
+							<div class="brand-slider__item">
+								<a class="bran-slider__link" href="#">
+									<img src="img/brand/Acura.png" alt="brand picture">
+								</a>
+							</div>
+							<!-- Slide 02 -->
+							<div class="brand-slider__item">
+								<a class="bran-slider__link" href="#">
+									<img src="img/brand/Audi.png" alt="brand picture">
+								</a>
+							</div>
+							<!-- Slide 03 -->
+							<div class="brand-slider__item">
+								<a class="bran-slider__link" href="#">
+									<img src="img/brand/BMW.png" alt="brand picture">
+								</a>
+							</div>
+							<!-- Slide 04 -->
+							<div class="brand-slider__item">
+								<a class="bran-slider__link" href="#">
+									<img src="img/brand/Cadillac.png" alt="brand picture">
+								</a>
+							</div>
+							<!-- Slide 05 -->
+							<div class="brand-slider__item">
+								<a class="bran-slider__link" href="#">
+									<img src="img/brand/Chevrolet.png" alt="brand picture">
+								</a>
+							</div>
+							<!-- Slide 06 -->
+							<div class="brand-slider__item">
+								<a class="bran-slider__link" href="#">
+									<img src="img/brand/Chrysler.png" alt="brand picture">
+								</a>
+							</div>
+							<!-- Slide 07 -->
+							<div class="brand-slider__item">
+								<a class="bran-slider__link" href="#">
+									<img src="img/brand/Citroen.png" alt="brand picture">
+								</a>
+							</div>
+							<!-- Slide 08 -->
+							<div class="brand-slider__item">
+								<a class="bran-slider__link" href="#">
+									<img src="img/brand/Dodge.png" alt="brand picture">
+								</a>
+							</div>
+							<!-- Slide 09 -->
+							<div class="brand-slider__item">
+								<a class="bran-slider__link" href="#">
+									<img src="img/brand/Ford.png" alt="brand picture">
+								</a>
+							</div>
+							<!-- Slide 10 -->
+							<div class="brand-slider__item">
+								<a class="bran-slider__link" href="#">
+									<img src="img/brand/Honda.png" alt="brand picture">
+								</a>
+							</div>
+							<!-- Slide 12 -->
+							<div class="brand-slider__item">
+								<a class="bran-slider__link" href="#">
+									<img src="img/brand/Hummer.png" alt="brand picture">
+								</a>
+							</div>
+							<!-- Slide 13 -->
+							<div class="brand-slider__item">
+								<a class="bran-slider__link" href="#">
+									<img src="img/brand/Hyundai.png" alt="brand picture">
+								</a>
+							</div>
+							<!-- Slide 14 -->
+							<div class="brand-slider__item">
+								<a class="bran-slider__link" href="#">
+									<img src="img/brand/Infiniti.png" alt="brand picture">
+								</a>
+							</div>
+							<!-- Slide 15 -->
+							<div class="brand-slider__item">
+								<a class="bran-slider__link" href="#">
+									<img src="img/brand/Jaguar.png" alt="brand picture">
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- Yandex -->
+			<section class="yandex">
+				<div class="container">
+					<h2 class="yandex__title section-title">
+						<i class="icon-review"></i>
+						Наши отзывы
+					</h2>
+					<div class="yandex__inner">
+								<div class="yandex__review" style="width:100%;height:430px;position:relative;"><iframe style="width:100%;height:100%;box-shadow:1px 1px 1px rgba(0,0,0,0.05);border:0;border-radius:3px;box-sizing:border-box" src="https://yandex.ru/maps-reviews-widget/147959706885?comments"></iframe>
+								</div>
+						<div class="yandex__map">
+							<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A24f592e6915fc9857fe34f656ed2514b94e4cdb0e0de6d8f24ebf27d5a934519&amp;width=100%&amp;height=430&amp;lang=ru_RU&amp;scroll=true"></script>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<!-- Footer -->
+		<footer class="footer">
+			<div class="call-us">
+				<button class="call-us__button call-js show">
+					<i class="icon-phone"></i>
+				</button>
+				<ul class="call-us__menu">
+					<li class="call-us__item">
+						<a class="header-sub__phone call-us__contact" href="tel:+7 911 926-53-20">
+							<i class="icon-phone"></i>
+							+7 911 926-53-20
+						</a>
+						<p class="header-sub__location call-us__contact">
+							<i class="icon-location"></i>
+							Ул. Салова 50
+						</p>
+						<a class="call-us__contact-btn accent-button" href="#">
+							<i class="icon-phone"></i>
+							Позвонить
+						</a>
+					</li>
+					<li class="call-us__item">
+						<a class="header-sub__phone call-us__contact" href="tel:+7 812 970-78-68">
+							<i class="icon-phone"></i>
+							+7 812 970-78-68
+						</a>
+						<p class="header-sub__location call-us__contact">
+							<i class="icon-location"></i>
+							Ул.Комунны 15 к.2
+						</p>
+						<a class="call-us__contact-btn accent-button" href="#">
+							<i class="icon-phone"></i>
+							Позвонить
+						</a>
+					</li>
+					<li class="call-us__item call-us__item--row">
+						<a class="call-us__social-link"  href="#">
+							<img src="img/icon/whatsapp-color.svg" alt="go to whatsapp">
+						</a>
+						<a class="call-us__social-link"  href="#">
+							<img src="img/icon/vkontakte-color.svg" alt="go to vkontakt">
+						</a>
+						<a class="call-us__social-link"  href="#">
+							<img src="img/icon/instagram-color.svg" alt="go to instagram">
+						</a>
+					</li>
+					<li class="call-us__item">
+						<div class="footer-form form">
+							<h3 class="form__title default-title">Записаться на ремонт</h3>
+							<div class="form__item">
+								<input type="text" class="form__input" placeholder="Ваше имя">
+							</div>
+							<div class="form__item">
+								<input type="text" class="form__input" placeholder="Ваше телефон">
+							</div>
+							<div class="form__item form-buttons__box">
+								<button class="call-us__submit form__button default-button" type="submit">
+									<i class="icon-submit"></i>
+									<span> Отправить </span>
+								</button>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<!-- Footer main -->
+			<div class="footer-main">
+				<div class="container">
+					<div class="footer-main__inner">
+						<!-- Footer item 01 -->
+						<div class="footer-main__item">
+							<div class="footer-main__logo">
+								<img src="img/logo-secondary.svg" alt="logotype">
+							</div>
+							<p class="footer-main__description">
+								Мы занимаемся ремонтом и заменой катализаторов для иномарок, а также для отечественных авто.
+								www.autoplus-spb.ru
+							</p>
+						</div>
+						<!-- Footer item 02 -->
+						<div class="footer-main__item">
+							<h3 class="footer-form__title form__title default-title">Популярные категории</h3>
+							<ul class="footer-main__list">
+								<li class="footer-main__list-item">
+									<a class="footer-main__link" href="#">Автомойка</a>
+								</li>
+								<li class="footer-main__list-item">
+									<a class="footer-main__link" href="#">Шиномонтаж</a>
+								</li>
+								<li class="footer-main__list-item">
+									<a class="footer-main__link" href="#">Слесарный ремонт</a>
+								</li>
+								<li class="footer-main__list-item">
+									<a class="footer-main__link" href="#">Ремонт двигатлей</a>
+								</li>
+								<li class="footer-main__list-item">
+									<a class="footer-main__link" href="#">Ремонт выхлопных систем</a>
+								</li>
+								<li class="footer-main__list-item">
+									<a class="footer-main__link" href="#">Сварка нержавейки</a>
+								</li>
+								<li class="footer-main__list-item">
+									<a class="footer-main__link" href="#">Подбор запчастей в конец</a>
+								</li>
+								<li class="footer-main__list-item">
+									<a class="footer-main__link" href="#">Ремонт тормозных систем</a>
+								</li>
+								<li class="footer-main__list-item">
+									<a class="footer-main__link" href="#">Подбор запчастей</a>
+								</li>
+								<li class="footer-main__list-item">
+									<a class="footer-main__link" href="#">Тюнинг, дооснащение</a>
+								</li>
+								<li class="footer-main__list-item">
+									<a class="footer-main__link" href="#">Заправка кондиционеров</a>
+								</li>
+								<li class="footer-main__list-item">
+									<a class="footer-main__link" href="#">Ремонт карданных валов</a>
+								</li>
+								<li class="footer-main__list-item">
+									<a class="footer-main__link" href="#">Чип тюнинг</a>
+								</li>
+							</ul>
+						</div>
+						<!-- Footer item 03 -->
+						<div class="footer-main__item footer-form">
+							<!-- Footer form -->
+							<div class="footer-form form">
+								<h3 class="footer-form__title form__title default-title">Записаться на ремонт</h3>
+								<div class="form__item">
+									<input type="text" class="form__input" placeholder="Ваше имя">
+								</div>
+								<div class="form__item">
+									<input type="text" class="form__input" placeholder="Ваше телефон">
+								</div>
+								<div class="form__item form-buttons__box">
+									<button class="form__button default-button" type="submit">
+										<i class="icon-submit"></i>
+										<span> Отправить </span>
+									</button>
+									<a class="form__button accent-button" hre="#">
+										<i class="icon-phone"></i>
+										<span> Звонок с сайта </span>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- Footer sub -->
+			<div class="footer-sub">
+				<div class="container">
+					<div class="footer-sub__inner">
+						<div class="footer-sub__item">
+							<p class="footer-sub__copyright">© 2010-2021 Autoplus-spb.ru</p>
+						</div>
+						<div class="footer-sub__item">
+							<div class="footer-sub__social">
+								<a class="footer-sub__social-link" href="#">
+									<img src="img/icon/whatsapp.svg" alt="go to whatsapp">
+								</a>
+								<a class="footer-sub__social-link" href="#">
+									<img src="img/icon/vkontakte.svg" alt="go to vkontakte">
+								</a>
+								<a class="footer-sub__social-link" href="#">
+									<img src="img/icon/instagram.svg" alt="go to instagram">
+								</a>
+							</div>
+						</div>
+						<div class="footer-sub__item">
+							<a class="footer-sub__link-drive" href="#">Drive2</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+</body>
+<script src="js/main.js"></script>
+<script src="js/slick.min.js"></script>
+<script src="js/mixitup.min.js"></script>
+<script src="js/jquery.fancybox.min.js"></script>
+
+</html>
