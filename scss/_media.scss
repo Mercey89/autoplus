@@ -14,6 +14,25 @@
 	}
 }
 
+@media (max-width: 1005px) {
+	.footer-main__inner {
+    flex-direction: column;
+		// .footer-main__description
+		&__description {
+			max-width: 100%;
+		}
+		// .footer-main__list
+		&__list {
+			max-width: 100%;
+		}
+	}
+	.footer-form {
+    width: 100%;
+	}
+}
+
+
+
 @media (max-width: 768px) {
 	.main {
 		padding-top: 70px;
