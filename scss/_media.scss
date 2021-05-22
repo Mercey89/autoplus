@@ -1,3 +1,9 @@
+@media (max-width: 1090px) {
+	.header-sub__item:first-child {
+		display: none;
+	}
+} 
+
 @media (max-width: 1024px) {
 	.header-sub {
 		font-size: 12px;
@@ -15,9 +21,6 @@
 }
 
 @media (max-width: 1005px) {
-	.header-sub__item:first-child {
-		display: none;
-	}
 	.footer-main {
 		&__inner {
 			flex-direction: column;
