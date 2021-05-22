@@ -15,9 +15,14 @@
 }
 
 @media (max-width: 1005px) {
-	.footer-main__inner {
-    flex-direction: column;
-		// .footer-main__description
+	.header-sub__item:first-child {
+		display: none;
+	}
+	.footer-main {
+		&__inner {
+			flex-direction: column;
+			// .footer-main__description
+		} 
 		&__description {
 			max-width: 100%;
 		}
