@@ -11,15 +11,6 @@
 	padding-top: 110px;
 }
 
-.service-menu__item {
-	&.mixitup-control-active {
-		background-color: #2f2c3a;
-		& .service-menu__item-counter {
-			background-color: $color-accent;
-		}
-	}
-}
-
 .header {
 	width: 100%;
 	position: fixed;

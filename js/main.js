@@ -102,7 +102,7 @@ $(document).ready(function () {
 			effects: 'fade translateY(-100%)'
 		},
     controls: {
-        toggleLogic: 'and',
+        toggleLogic: 'or',
     },
 		callbacks: {
 			onMixEnd: function(state){
